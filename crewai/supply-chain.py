@@ -1,6 +1,5 @@
 import os
 
-from langchain_groq import ChatGroq
 
 from crewai import Crew, Agent, Task, Process
 from langchain_community.tools import DuckDuckGoSearchRun
@@ -9,6 +8,9 @@ from langchain.tools import tool
 
 from crewai_tools import tool
 
+from langchain_groq import ChatGroq
+
+os.environ["GROQ_API_KEY"] = "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"
 GROQ_LLM = ChatGroq(
             api_key=os.getenv("GROQ_API_KEY"),
             model="llama3-70b-8192"
