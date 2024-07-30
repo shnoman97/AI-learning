@@ -1,1 +1,16 @@
- 4_rag/db/
+/crewai
+/ai_fa_new
+/chat
+/L2_research_write_article
+/4_rag
+/AI-FA
+/L4_tools_customer_outreach
+/L5_tasks_event_planning
+/Financial Analyst/main.py
+/L5_tasks_event_planning
+/Final
+/AI -Financial Advisor
+/customer_support
+*.bin
+*.sqlite3
+*.pyc
